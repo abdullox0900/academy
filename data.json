@@ -1,0 +1,8 @@
+{
+	"students": [
+		{ "name": "Ali Valiyev", "score": 95 },
+		{ "name": "Malika Karimova", "score": 98 },
+		{ "name": "Jamshid Toshmatov", "score": 87 },
+		{ "name": "Nilufar Azizova", "score": 92 }
+	]
+}

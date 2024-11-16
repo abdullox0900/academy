@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - Studentlar Reytingi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📚 Admin Panel</h1>
+            <a href="index.html" class="nav-link">👥 Studentlar ko'rinishi</a>
+        </div>
+
+        <div class="add-student-form">
+            <input type="text" id="studentName" placeholder="Student ismini kiriting" required>
+            <input type="number" id="studentScore" placeholder="Ballni kiriting (0-100)" required min="0" max="100">
+            <button onclick="addStudent()">➕ Qo'shish</button>
+        </div>
+
+        <div class="rating-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>O'rin</th>
+                        <th>Ism</th>
+                        <th>Ball</th>
+                        <th>Amallar</th>
+                    </tr>
+                </thead>
+                <tbody id="studentsList">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="admin.js"></script>
+</body>
+
+</html>
